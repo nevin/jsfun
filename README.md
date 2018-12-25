@@ -1,6 +1,6 @@
 # js fun
 
-### 1. Print 1 to 100 
+### [1. Print 1 to 100](https://github.com/nevin/jsfun/tree/master/1.%20Print%201%20to%20100) 
 #### Without any loops, using Array.From
 ```javascript
 console.log(Array.from({length: 100},(_,x) => x+1))
