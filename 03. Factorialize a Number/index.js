@@ -14,7 +14,7 @@ console.log(factorialize(5))
 
 // Using loop
 function factorialize_loop(num) {
-    var factorialValue = num >= 0 ? 1 : -1
+    var factorialValue = (num >= 0) ? 1 : -1
     for(var i = 1; i<=num; i++) {
      factorialValue = factorialValue * i
     }
@@ -22,4 +22,12 @@ function factorialize_loop(num) {
 }
 
 console.log(factorialize_loop(10))
-console.log(factorialize_loop(0))
+
+
+function factorialize_loop_1(num) {
+    for(var i = 1; num>=1; num-- ) {
+      i  *= num
+    }
+    return i
+}
+console.log(factorialize_loop_1(10))
