@@ -1,6 +1,6 @@
 # js fun
 
-### Print 1 to 100 
+### 1. Print 1 to 100 
 #### Without any loops, using Array.From
 ```javascript
 console.log(Array.from({length: 100},(_,x) => x+1))
@@ -16,8 +16,9 @@ function iterateAndPrint(num) {
 }
 iterateAndPrint(0)
 ```
-### Find the length of the longest word in a sentence
-#### with iteration loop
+---
+### 2. Find the length of the longest word in a sentence
+#### With iteration loop
 ```javascript
 function findMaxWordLength(str) {
   var maxLength = 0
@@ -53,3 +54,4 @@ function findMaxWordLengthWithConditions(str) {
   return str.length
 }
 ```
+---
