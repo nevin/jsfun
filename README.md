@@ -1,23 +1,7 @@
 # js fun
 
 ### [1. Print 1 to 100](https://github.com/nevin/jsfun/tree/master/1.%20Print%201%20to%20100) 
-#### Without any loops, using Array.From
-```javascript
-console.log(Array.from({length: 100},(_,x) => x+1))
-```
-#### Using Conditional loops 
-```javascript
-function iterateAndPrint(num) {
-  if (num < 100) {
-	  num = num+1
-	  console.log(num)
-	  return iterateAndPrint(num)
-  }
-}
-iterateAndPrint(0)
-```
----
-### 2. Find the length of the longest word in a sentence
+### [2. Find the length of the longest word in a sentence]()
 #### With iteration loop
 ```javascript
 function findMaxWordLength(str) {
