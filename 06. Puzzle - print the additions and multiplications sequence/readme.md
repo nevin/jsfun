@@ -2,6 +2,8 @@
 #### Starting from 1 and repeatedly adding 5 or multiplying by 3, an infinite set can be produced. Given a number, find the sequence consisting of 5 and 3
 
 For example - 13 => (((1*3)+5)+5)
+if combination not found - null will be returned
+
 
 ```javascript
 function findSolution(target) {
